@@ -26,6 +26,10 @@ console.log(sum(1,3));
 const hello = () =>{
     return console.log("hi");
 }
-
 hello(); //// this is how a function is called so wtv is the vslue in console will come into the hello() and op printed will be hi
 
+
+age = (num1, num2)=>{
+    return num1 + num2;
+}
+console.log(age(4,5));
